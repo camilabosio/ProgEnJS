@@ -41,3 +41,8 @@ function anteriorDelTriple(n){
     return (n *3)-1
 }
 anteriorDelTriple(5)
+
+//Arrow Functions
+let saludar = (nombre, apellido) => 
+'Hola, ' + nombre + ' ' +  apellido + '!';
+

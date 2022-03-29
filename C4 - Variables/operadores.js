@@ -9,3 +9,4 @@ console.log(resultadoSuma);
 console.log(resultadoResta);
 console.log(resultadoMultiplicacion);
 console.log(resultadoDivision);
+
