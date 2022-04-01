@@ -1,3 +1,5 @@
+//Actividad de mesa de trabajo
+
 //Nivel I y II
 const prompt = require("prompt-sync")({ sigint: true });
 

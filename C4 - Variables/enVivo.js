@@ -1,1 +1,0 @@
-//Mirar clase en vivo y realizar ejercicios
