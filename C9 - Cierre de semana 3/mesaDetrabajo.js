@@ -82,10 +82,20 @@ function numeroCifras(){
         console.log(`Falta ${diferenciaNums3c} unidades, para ser número de tres cifras`);
     }
 }
-//numeroCifras();
+numeroCifras();
 /*
 Hacer un algoritmo que muestre el promedio de varias notas o de N notas ingresadas, 
 se debe definir el valor de N para conocer la cantidad de notas a ingresar.
 */
 let nNotas=Number(prompt("Ingresa la cantidad de notas a evaluar: "))
 
+
+function sumaNaturales(nNatural){
+    let sumNatural=0;
+    for (let i = 1; i <= nNatural; i++) {
+        sumNatural +=  i;
+    }
+    console.log("La suma de los primeros "+nNatural+" naturales es: "+sumNatural);    
+} 
+sumaNaturales(nNatural);
+  
