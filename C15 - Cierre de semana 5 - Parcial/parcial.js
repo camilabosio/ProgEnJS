@@ -13,7 +13,7 @@ let estudiante = {
 }
 
 
-/*
+/*+
 2 --- Crear una función que, pasado un número entero (la futura nota), nos devuelva la situación del alumno.
 La función deberá retornar la condición final del alumno (solo retorna la palabra). 
 Al momento de llamar a la función, deberás mostrar la siguiente frase: 
@@ -92,12 +92,12 @@ const asistenciaMinima = 23
 /*
 La función deberá recibir como parámetros la cantidad de asistencias
 y la condición final ante PlayGround del alumno. 
- */
-function estadoAlumno(asistencia, condicion){
-    if (asistencia <=asistenciaMinima  && condicion ){
+*/
+function estadoAlumno(asistencia){
+    if (asistencia <= asistenciaMinima  ){
         return ("Aprobado")       
     } else{
-         return ("Desaprobado")
+        return ("Desaprobado")
     }  
 }
-console.log(estadoAlumno(3, false))
+console.log(estadoAlumno(25))
